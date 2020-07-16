@@ -5,10 +5,10 @@ class Song
   @@artists = 0
   @@genres = 0
   
-  def new(name, artists, genre)
-    @name += 1
-    @artist += 1
-    @genre += 1
+  def initialize(name, artists, genre)
+    @@name += 1
+    @@artist += 1
+    @@genre += 1
   end
   
   def self.count
